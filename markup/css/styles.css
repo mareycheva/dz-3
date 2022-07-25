@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    font: 14px/1.4286 Arial, Helvetica, sans-serif;
+    background-color: #dedede;
+    color: #5c646e;
+}
+
+p,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0 1em;
+}
+
+a {
+    color:#ff1744;
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+.header-holder {
+    background-color: #262d34;
+    padding: 25px 0;
+} 
+
+.header h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
+
+.header h1::first-letter{
+    color: #ff1744;
+}
+
+.container {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #ff1744;
+    display: flex;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.navigation a:hover,
+.navigation li.active a {
+    background-color: #99001e;
+}
+
+.navigation a {
+    padding: 11px 19px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 46px 25px 30px;
+    position: relative;
+    display: flex;
+    padding-left: 35px;
+}
+
+.main {
+    border-bottom: 12px solid #d20000;
+}
+
+.intro  {
+    background-color: #262d34;
+    padding: 50px 50% 55px 29px;
+    line-height: 1.29;
+    color: #c9c7c7;
+}
+
+.intro h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 0 14px;
+    text-shadow: 0 2px 0 #727272;
+}
+
+.intro h1:first-letter {
+    color: #ff1744;
+}
+
+.intro h2 {
+    margin: 0 0 5px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.intro p {
+    margin: 0;
+}
+
+.title {
+    margin: 0 0 22px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #a5adb8;
+}
+
+.title:first-letter {
+    color: #ff1744;
+}
+
+.row {
+    display: flex;
+    margin: 0 -8px;
+}
+
+.col {
+    width: 33%;
+    padding: 0 8px;
+}
+
+.block h3 {
+    color: #282d33;
+    font-size: 18px;
+}
+
+.block h4 {
+    margin: 0 0 15px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #5c646e;
+}
+
+.block ul.text {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list ul {
+    margin-bottom: 0;
+    list-style-type: disc;
+}
+
+.block img {
+    box-shadow: 0 9px 16px rgba(0, 0, 0, 0.09);
+}
+
+.block ul, .block ol {
+    padding-left: 13px;
+}
+.block p {
+    margin-bottom: 24px;
+}
+
+.block {
+    margin-bottom: 31px;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+/* стили для footer*/
+
+.footer {
+    background-color: #262d34;
+    width: 100%;
+    color: #85898f;
+    padding: 29px 0 20px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.footer .tel {
+    text-decoration: none;
+    color: #85898f;
+}
+
+.footer .tel:hover {
+    color: #d08b98;
+}
+
+
+.footer p{
+    margin-bottom: 12px;
+}
+
+.footer ul {
+    padding-left: 0;
+    margin: 0 0 0 12px;
+}
+
+.footer a {
+    color: #d08b98;
+}
+
+
+.footer .col {
+    padding: 0 38px;
+}
+
+.footer .row {
+    margin: 0 -38px;
+}
+
+.footer h4 {
+    color: #a5adb8;
+    margin: 0 0 13px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+    font-weight: normal;
+    border-bottom: 1px solid #191c20;
+    box-shadow: 0 1px 0 0 #40474f;
+    padding-bottom: 11px;
+    text-transform: capitalize;
+}
+
+.footer h3 {
+    color: #a5adb8;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.footer h4 .cher:first-letter {
+    color: #ff1744;
+    text-transform: uppercase;
+}
+
+.footer h4 .cher{
+    display: inline-block;
+}
+
+
+.footer address {
+font-style: normal;
+
+}
+
+/* стили для таблицы*/
+
+.table {
+    border-collapse: collapse;
+    background: #282d33;
+    font-size: 12px;
+    width: 100%;
+    margin: 24px 0 0;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #ff1744;
+    padding: 10px;
+    color: #fff;
+    margin-top: 24px;
+    border-right: 1px solid #d8dbde;
+}
+
+.table td:last-child,
+.table th:last-child {
+    border-right: none;
+}
+
+.table td {
+    color: #a5adb8;
+    padding: 10px;
+    border-top: 1px solid #d8dbde;
+    border-right: 1px solid #d8dbde;
+}
+
+.table a {
+    color:#d08b98;
+}
+
+.aside {
+width: 325px;
+flex-shrink: 1;
+display: block;
+margin-right: 25px;
+}
+
+.article a {
+font-size: 12px;
+color: #d81313;
+font-weight: bold;
+}
+
+.article p {
+    color: #5c646e;
+}
+
+.article h3 {
+    color: #282d33;
+}
+
+.article img {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
